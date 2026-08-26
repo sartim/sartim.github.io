@@ -36,7 +36,7 @@ const projects = [
     name: "Trussium",
     description: "A practical platform for building dependable software systems, bringing together clear service boundaries, automation, and production-minded engineering patterns.",
     stack: "Platform · Architecture · Delivery",
-    url: "https://github.com/sartim/trussium",
+    url: "https://github.com/trussiumhq/trussium",
   },
   {
     name: "Storemesh",
