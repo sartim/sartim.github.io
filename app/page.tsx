@@ -33,10 +33,16 @@ const projects = [
     url: "https://github.com/sartim/insight-agent",
   },
   {
-    name: "Storemesh User Service",
-    description: "A Go identity service with explicit HTTP and gRPC adapters, shared domain logic, session controls, and an OpenAPI contract.",
-    stack: "Go · gRPC · Gin",
-    url: "https://github.com/sartim/storemesh-user-service",
+    name: "Trussium",
+    description: "A practical platform for building dependable software systems, bringing together clear service boundaries, automation, and production-minded engineering patterns.",
+    stack: "Platform · Architecture · Delivery",
+    url: "https://github.com/sartim/trussium",
+  },
+  {
+    name: "Storemesh",
+    description: "A modular commerce and identity platform shaped around well-defined services, API contracts, and reliable foundations for product teams.",
+    stack: "Go · APIs · Distributed systems",
+    url: "https://github.com/sartim/storemesh",
   },
   {
     name: "M-PESA Python SDK",
