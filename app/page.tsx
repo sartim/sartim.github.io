@@ -36,13 +36,13 @@ const projects = [
     name: "Trussium",
     description: "A practical platform for building dependable software systems, bringing together clear service boundaries, automation, and production-minded engineering patterns.",
     stack: "Platform · Architecture · Delivery",
-    url: "https://github.com/trussiumhq/trussium",
+    url: "https://trussiumhq.github.io",
   },
   {
     name: "Storemesh",
     description: "A modular commerce and identity platform shaped around well-defined services, API contracts, and reliable foundations for product teams.",
     stack: "Go · APIs · Distributed systems",
-    url: "https://github.com/sartim/storemesh",
+    url: "https://sartim.github.io/storemesh-docs/",
   },
   {
     name: "M-PESA Python SDK",
