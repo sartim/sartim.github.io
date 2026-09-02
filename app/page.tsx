@@ -56,6 +56,18 @@ const projects = [
     stack: "Terraform · CloudFront · S3",
     url: "https://github.com/sartim/terraform-cloudfront-s3-react-deploy",
   },
+  {
+    name: "Drogon Framework API Starter",
+    description: "A production-minded C++ API starter with a clear foundation for building fast, maintainable services and documenting their interfaces.",
+    stack: "C++ · Drogon · REST APIs",
+    url: "https://sartim.github.io/drogon-api-starter/",
+  },
+  {
+    name: "ASP.NET Core API Starter",
+    description: "A structured .NET API foundation designed to accelerate service delivery with maintainable boundaries, documentation, and operational readiness.",
+    stack: "C# · ASP.NET Core · APIs",
+    url: "https://sartim.github.io/aspnet-core-api-starter/",
+  },
 ];
 
 export default function Home() {
