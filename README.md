@@ -1,4 +1,4 @@
-# Timothy Nyachio — Software & Platform Engineer
+# Software & Platform Engineer
 
 Personal portfolio site built with Next.js and exported as a static site for GitHub Pages at [sartim.github.io](https://sartim.github.io).
 
