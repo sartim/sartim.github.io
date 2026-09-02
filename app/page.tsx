@@ -50,6 +50,12 @@ const projects = [
     stack: "C# · ASP.NET Core · APIs",
     url: "https://sartim.github.io/aspnet-core-api-starter/",
   },
+  {
+    name: "Search Engine",
+    description: "A focused search platform project exploring indexing, retrieval, and the engineering foundations behind useful information discovery.",
+    stack: "Search · APIs · Systems",
+    url: "https://sartim.github.io/search-engine/",
+  },
 ];
 
 export default function Home() {
@@ -193,4 +199,3 @@ export default function Home() {
     </main>
   );
 }
-
