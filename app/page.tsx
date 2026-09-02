@@ -27,12 +27,6 @@ const impact = [
 
 const projects = [
   {
-    name: "Insight Agent",
-    description: "A security-minded serverless FastAPI service on Google Cloud Run, fully provisioned with Terraform and delivered through keyless CI/CD.",
-    stack: "Python · GCP · Terraform",
-    url: "https://github.com/sartim/insight-agent",
-  },
-  {
     name: "Trussium",
     description: "A practical platform for building dependable software systems, bringing together clear service boundaries, automation, and production-minded engineering patterns.",
     stack: "Platform · Architecture · Delivery",
@@ -43,18 +37,6 @@ const projects = [
     description: "A modular commerce and identity platform shaped around well-defined services, API contracts, and reliable foundations for product teams.",
     stack: "Go · APIs · Distributed systems",
     url: "https://sartim.github.io/storemesh-docs/",
-  },
-  {
-    name: "M-PESA Python SDK",
-    description: "A published Python integration library covering core M-PESA workflows including C2B, B2B, B2C, reversals, and transaction status.",
-    stack: "Python · Payments · PyPI",
-    url: "https://github.com/sartim/mpesa-sdk",
-  },
-  {
-    name: "AWS Static Delivery",
-    description: "Reusable Terraform infrastructure for delivering web applications through S3, CloudFront, and managed TLS certificates.",
-    stack: "Terraform · CloudFront · S3",
-    url: "https://github.com/sartim/terraform-cloudfront-s3-react-deploy",
   },
   {
     name: "Drogon Framework API Starter",
