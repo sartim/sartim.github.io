@@ -98,6 +98,17 @@ export default function Home() {
         ))}
       </section>
 
+      <section className="recruiter-note shell" aria-label="Recruiter overview">
+        <p className="section-index">Quick fit</p>
+        <div className="recruiter-note-copy">
+          <h2>Useful when the system is complex and the outcome matters.</h2>
+          <div className="recruiter-points">
+            <p><strong>Best fit</strong> Software and platform engineering, backend systems, cloud infrastructure, DevOps, and technical leadership.</p>
+            <p><strong>Working style</strong> Hands-on, collaborative, and comfortable moving between architecture, implementation, delivery, and operations.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="intro shell" id="work">
         <p className="section-index">01 / Selected impact</p>
         <h2>Engineering decisions that move the business forward.</h2>
