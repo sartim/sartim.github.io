@@ -1,26 +1,26 @@
 const stats = [
   { value: "10+", label: "years building software & platforms" },
   { value: "30%", label: "reduction in AWS infrastructure spend" },
-  { value: "4–5", label: "years shaping architecture & standards" },
+  { value: "4 to 5", label: "years shaping architecture and standards" },
 ];
 
 const impact = [
   {
     number: "01",
     title: "A platform built for change",
-    summary: "Designed and operated production infrastructure spanning AWS EKS, Hetzner bare-metal Kubernetes, and LXC—bringing diverse environments under consistent automation and operational standards.",
+    summary: "Designed and operated production infrastructure spanning AWS EKS, Hetzner bare metal Kubernetes, and LXC. Brought diverse environments under consistent automation and operational standards.",
     tags: ["AWS EKS", "Kubernetes", "Terraform", "Ansible"],
   },
   {
     number: "02",
     title: "Visibility across every layer",
-    summary: "Standardised observability with OpenTelemetry, Prometheus, Grafana, Jaeger, and Sentry—giving teams clearer signals across cloud-native and legacy workloads.",
+    summary: "Standardised observability with OpenTelemetry, Prometheus, Grafana, Jaeger, and Sentry. This gave teams clearer signals across cloud native and legacy workloads.",
     tags: ["OpenTelemetry", "Prometheus", "Jaeger", "Sentry"],
   },
   {
     number: "03",
     title: "30% less cloud spend",
-    summary: "Led a practical AWS cost-optimisation programme through utilisation reviews, resource cleanup, and instance standardisation—lowering spend without trading away reliability.",
+    summary: "Led a practical AWS cost optimisation programme through utilisation reviews, resource cleanup, and instance standardisation. Lowered spend without trading away reliability.",
     tags: ["FinOps", "AWS", "Governance", "Reliability"],
   },
 ];
@@ -168,7 +168,7 @@ export default function Home() {
       <section className="profile shell">
         <p className="section-index">04 / Perspective</p>
         <div className="profile-copy">
-          <blockquote>“I build across the whole system—from application code to the platform it runs on.”</blockquote>
+          <blockquote>“I build across the whole system, from application code to the platform it runs on.”</blockquote>
           <div className="profile-detail">
             <p>Software and Platform Engineer with 10+ years of experience across backend and frontend development, distributed systems, cloud infrastructure, DevOps, and technical leadership.</p>
             <p>I design and operate scalable production platforms, lead architecture and engineering improvements, standardise observability and deployment practices, and improve reliability, delivery standards, and operational efficiency across complex environments.</p>
