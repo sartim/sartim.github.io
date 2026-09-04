@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root { --ink: #111513; --paper: #f3f1e9; --acid: #b9ee72; --line: rgba(17, 21, 19, 0.19); --muted: #59605c; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -28,6 +30,12 @@ h1 em { display: block; font-family: Georgia, 'Times New Roman', serif; font-wei
 .stat:last-child { border-right: 0; }
 .stat strong { font-family: Georgia, 'Times New Roman', serif; color: var(--acid); font-size: clamp(56px, 7vw, 86px); line-height: .9; font-weight: 400; letter-spacing: -.06em; }
 .stat span { max-width: 190px; color: #c2c8c4; font-size: 13px; line-height: 1.4; text-transform: uppercase; letter-spacing: .08em; }
+.recruiter-note { padding: 110px 0 30px; display: grid; grid-template-columns: 1fr 3fr; gap: 40px; }
+.recruiter-note-copy { display: grid; grid-template-columns: 1.25fr 1fr; gap: 60px; align-items: end; }
+.recruiter-note h2 { font-size: clamp(36px, 4.5vw, 62px); }
+.recruiter-points { border-top: 1px solid var(--line); }
+.recruiter-points p { margin: 0; padding: 18px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 14px; line-height: 1.55; }
+.recruiter-points strong { display: block; margin-bottom: 5px; color: var(--ink); font-size: 11px; text-transform: uppercase; letter-spacing: .1em; }
 .intro { padding: 120px 0 180px; display: grid; grid-template-columns: 1fr 3fr; gap: 40px; }
 .section-index { margin: 8px 0 0; font-size: 11px; text-transform: uppercase; letter-spacing: .14em; color: var(--muted); }
 h2 { margin: 0; max-width: 820px; font-size: clamp(42px, 6.2vw, 82px); line-height: 1.02; letter-spacing: -.05em; font-weight: 500; }
@@ -88,6 +96,8 @@ h3 { margin: 0; font-size: 28px; line-height: 1.05; letter-spacing: -.035em; fon
   .stat { min-height: 150px; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.16); }
   .stat:last-child { border-bottom: 0; }
   .intro { padding: 86px 0 120px; grid-template-columns: 1fr; gap: 28px; }
+  .recruiter-note { padding: 80px 0 20px; grid-template-columns: 1fr; gap: 28px; }
+  .recruiter-note-copy { grid-template-columns: 1fr; gap: 38px; }
   .impact-card, .impact-card > div { grid-template-columns: 1fr; gap: 24px; }
   .impact-card { padding: 40px 0; }
   .tags { grid-column: 1; }
