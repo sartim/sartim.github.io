@@ -70,6 +70,7 @@ export default function Home() {
           <a href="#work">Work</a>
           <a href="#expertise">Expertise</a>
           <a href="#contact">Connect</a>
+          <a href="/Tim.pdf" target="_blank" rel="noreferrer">Profile PDF <span aria-hidden="true">↗</span></a>
         </div>
       </nav>
 
